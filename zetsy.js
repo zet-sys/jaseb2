@@ -1,6 +1,12 @@
 const { Telegraf, Markup } = require("telegraf");
 const fs = require("fs");
 const bot = new Telegraf("8554094327:AAHtcNpPCue1jvHrmcNnsiifQOdBFsWpFhk");
+let botUsername;
+
+bot.telegram.getMe().then(me => {
+  botUsername = me.username;
+  console.log("Bot username:", botUsername);
+});
 const groupFile = "./database/grub.json";
 const presetFile = "./database/preset.json";
 const premiumFile = "./database/premium.json";
