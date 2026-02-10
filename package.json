@@ -1,0 +1,12 @@
+{
+  "name": "BOT JASSEB ZETZY",
+  "version": "1.0",
+  "description": "telegram: @Zeeellli",
+  "main": "zetsy.js",
+  "scripts": {
+    "start": "node zetsy.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  }
+}
