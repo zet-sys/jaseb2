@@ -172,6 +172,9 @@ bot.command('start', async (ctx) => {
       ],
       [
         Markup.button.url('SUPPORT DEVELOPER', 'https://t.me/aboutzetzyy'),
+      ],
+      [
+        Markup.button.url('➕ ADD GROUP', `https://t.me/${botUsername}?startgroup=true`),
       ]
     ])
   });
@@ -252,6 +255,9 @@ bot.action('startback', async (ctx) => {
       ],
       [
         Markup.button.url('SUPPORT DEVELOPER', 'https://t.me/aboutzetzyy'),
+      ],
+      [
+        Markup.button.url('➕ ADD GROUP', `https://t.me/${botUsername}?startgroup=true`),
       ]
 ]);
 
